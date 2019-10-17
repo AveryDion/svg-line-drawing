@@ -1,0 +1,19 @@
+html {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  position: absolute;
+  left: 20px;
+  top: 250px;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+
+  from { opacity: 0; }
+
+  to { opacity: 1; }
+
+}
